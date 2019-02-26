@@ -17,7 +17,7 @@ for($a=0;$a<$jumlah;$a++) {
 	$rand2 = md5(rand(12345678,98765432));
 	$rand = array($rand1,$rand2);
 	$rand3 = md5($rand[rand(1,2)]);
-	$config['headers'] = explode("\n", "Host: m.bukalapak.com
+	$config['headers'] = explode("\n", "Host: m.caribeken.com
 Connection: keep-alive
 Content-Length: 134
 Origin: https://m.caribeken.com
